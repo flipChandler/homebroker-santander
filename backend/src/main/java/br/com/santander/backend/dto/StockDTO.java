@@ -1,4 +1,4 @@
-package br.com.santander.backend.model.dto;
+package br.com.santander.backend.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

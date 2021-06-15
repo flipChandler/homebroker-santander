@@ -1,13 +1,11 @@
 package br.com.santander.backend.controller;
 
-import br.com.santander.backend.model.dto.StockDTO;
-import org.apache.catalina.connector.Response;
+import br.com.santander.backend.dto.StockDTO;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
